@@ -1,0 +1,29 @@
+# Core data
+pandas>=2.1
+numpy>=1.26
+pyarrow>=14.0
+
+# Geospatial
+geopandas>=0.14
+shapely>=2.0
+pyproj>=3.6
+
+# Machine learning
+scikit-learn>=1.4
+xgboost>=2.0        # only needed for Phase 5
+shap>=0.44          # only needed for Phase 5
+
+# Visualisation
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.18
+folium>=0.15
+
+# Dashboard
+streamlit>=1.32
+streamlit-folium>=0.18
+
+# Data collection and notebooks
+requests>=2.31
+python-dotenv>=1.0
+jupyter>=1.0
