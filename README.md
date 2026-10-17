@@ -33,14 +33,19 @@ These need site visits and commercial data after the shortlist is made.
 
 ## Data sources
 
-| Dataset | Source | Used for |
+Features are grouped into four pillars that a business owner can follow: **demand**, **access**, **spending power** and **supply**.
+
+| Pillar | Dataset | Source |
 |---|---|---|
-| Business entities (with SSIC codes) | ACRA via data.gov.sg | F&B business counts, growth over time |
-| Resident population by subzone, Census 2020 | Singapore Department of Statistics via data.gov.sg | Population, density, age profile |
-| MRT/LRT station exits | LTA DataMall | Transport access |
-| Master Plan 2019 subzone boundaries | URA via data.gov.sg | Geographic unit for every feature |
-| Postal code geocoding | OneMap API (SLA) | Turning addresses into coordinates |
-| HDB resale transactions (optional) | HDB via data.gov.sg | Residential market activity |
+| Geography | Master Plan 2019 subzone boundaries | URA via data.gov.sg |
+| Demand | Residents by subzone, June 2025 (plus history back to 2011) | SingStat |
+| Demand | Passenger volume by train station and bus stop (footfall) | LTA DataMall |
+| Access | MRT station exits, bus stops | LTA |
+| Spending power | Household income by planning area (GHS 2025), HDB resale prices | SingStat, HDB |
+| Supply | F&B business entities (SSIC 561, 563) | ACRA via data.gov.sg |
+| Supply | Cafés, restaurants and fast food; malls, offices, schools | OpenStreetMap |
+| Supply | Hawker centres | NEA via data.gov.sg |
+| Tool | Postal code geocoding | OneMap API (SLA) |
 
 Full details, licences and caveats are in [`data/README.md`](data/README.md).
 
